@@ -478,7 +478,7 @@ TeleportSection:NewButton("Raise A Yippee", "Teleports To Raise a Yippee", funct
 game:GetService("TeleportService"):Teleport(9742783208) 
 end)
 end
-if(gameid == 9742783208) then
+if(gameid == 9742783208 or 10074949006) then
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
    local Window = Library.CreateLib("Nic Hub", "Ocean")
